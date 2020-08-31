@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RegisterViewController.swift
 //  chatapptb
 //
 //  Created by Adaobi Solarin on 31/08/2020.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         // Do any additional setup after loading the view.
     }
+    
 
-
+  
 }
-

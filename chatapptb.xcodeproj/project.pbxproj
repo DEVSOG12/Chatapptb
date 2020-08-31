@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		67AFECDB24FD15BE0069CDD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFECDA24FD15BE0069CDD3 /* AppDelegate.swift */; };
 		67AFECDD24FD15BE0069CDD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFECDC24FD15BE0069CDD3 /* SceneDelegate.swift */; };
-		67AFECDF24FD15BE0069CDD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFECDE24FD15BE0069CDD3 /* ViewController.swift */; };
+		67AFECDF24FD15BE0069CDD3 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFECDE24FD15BE0069CDD3 /* ConversationsViewController.swift */; };
 		67AFECE224FD15BE0069CDD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AFECE024FD15BE0069CDD3 /* Main.storyboard */; };
 		67AFECE424FD15C60069CDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67AFECE324FD15C60069CDD3 /* Assets.xcassets */; };
 		67AFECE724FD15C60069CDD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AFECE524FD15C60069CDD3 /* LaunchScreen.storyboard */; };
-		67AFECF224FD15C60069CDD3 /* chatapptbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFECF124FD15C60069CDD3 /* chatapptbTests.swift */; };
-		67AFECFD24FD15C60069CDD3 /* chatapptbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFECFC24FD15C60069CDD3 /* chatapptbUITests.swift */; };
+		67AFED0B24FD1B6D0069CDD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67AFED0A24FD1B6D0069CDD3 /* GoogleService-Info.plist */; };
+		67AFED1324FD1D900069CDD3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFED1224FD1D900069CDD3 /* LoginViewController.swift */; };
+		67AFED1524FD1DA80069CDD3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFED1424FD1DA80069CDD3 /* RegisterViewController.swift */; };
+		67AFED1924FD25A90069CDD3 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFED1824FD25A90069CDD3 /* PhotoViewerViewController.swift */; };
+		67AFED1B24FD25F20069CDD3 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFED1A24FD25F20069CDD3 /* VideoPlayerViewController.swift */; };
+		67AFED1D24FD260F0069CDD3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFED1C24FD260F0069CDD3 /* ProfileViewController.swift */; };
+		67AFED1F24FD262D0069CDD3 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFED1E24FD262D0069CDD3 /* NewConversationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +43,20 @@
 		67AFECD724FD15BE0069CDD3 /* chatapptb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatapptb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67AFECDA24FD15BE0069CDD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67AFECDC24FD15BE0069CDD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67AFECDE24FD15BE0069CDD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67AFECDE24FD15BE0069CDD3 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		67AFECE124FD15BE0069CDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67AFECE324FD15C60069CDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67AFECE624FD15C60069CDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67AFECE824FD15C60069CDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67AFECED24FD15C60069CDD3 /* chatapptbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatapptbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		67AFECF124FD15C60069CDD3 /* chatapptbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatapptbTests.swift; sourceTree = "<group>"; };
-		67AFECF324FD15C60069CDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67AFECF824FD15C60069CDD3 /* chatapptbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatapptbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		67AFECFC24FD15C60069CDD3 /* chatapptbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatapptbUITests.swift; sourceTree = "<group>"; };
-		67AFECFE24FD15C60069CDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67AFED0A24FD1B6D0069CDD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		67AFED1224FD1D900069CDD3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		67AFED1424FD1DA80069CDD3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		67AFED1824FD25A90069CDD3 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		67AFED1A24FD25F20069CDD3 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		67AFED1C24FD260F0069CDD3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		67AFED1E24FD262D0069CDD3 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				67AFECD924FD15BE0069CDD3 /* chatapptb */,
-				67AFECF024FD15C60069CDD3 /* chatapptbTests */,
-				67AFECFB24FD15C60069CDD3 /* chatapptbUITests */,
 				67AFECD824FD15BE0069CDD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,33 +105,78 @@
 		67AFECD924FD15BE0069CDD3 /* chatapptb */ = {
 			isa = PBXGroup;
 			children = (
-				67AFECDA24FD15BE0069CDD3 /* AppDelegate.swift */,
-				67AFECDC24FD15BE0069CDD3 /* SceneDelegate.swift */,
-				67AFECDE24FD15BE0069CDD3 /* ViewController.swift */,
-				67AFECE024FD15BE0069CDD3 /* Main.storyboard */,
-				67AFECE324FD15C60069CDD3 /* Assets.xcassets */,
-				67AFECE524FD15C60069CDD3 /* LaunchScreen.storyboard */,
+				67AFED1024FD1C270069CDD3 /* Resources */,
+				67AFED0F24FD1C1B0069CDD3 /* Models */,
+				67AFED0E24FD1C000069CDD3 /* ViewModels */,
+				67AFED0D24FD1BEF0069CDD3 /* Views */,
+				67AFED0C24FD1BBF0069CDD3 /* Controllers */,
+				67AFED0A24FD1B6D0069CDD3 /* GoogleService-Info.plist */,
 				67AFECE824FD15C60069CDD3 /* Info.plist */,
 			);
 			path = chatapptb;
 			sourceTree = "<group>";
 		};
-		67AFECF024FD15C60069CDD3 /* chatapptbTests */ = {
+		67AFED0C24FD1BBF0069CDD3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				67AFECF124FD15C60069CDD3 /* chatapptbTests.swift */,
-				67AFECF324FD15C60069CDD3 /* Info.plist */,
+				67AFECDE24FD15BE0069CDD3 /* ConversationsViewController.swift */,
+				67AFED2024FD27CC0069CDD3 /* Login */,
+				67AFED1824FD25A90069CDD3 /* PhotoViewerViewController.swift */,
+				67AFED1A24FD25F20069CDD3 /* VideoPlayerViewController.swift */,
+				67AFED1C24FD260F0069CDD3 /* ProfileViewController.swift */,
+				67AFED1E24FD262D0069CDD3 /* NewConversationViewController.swift */,
 			);
-			path = chatapptbTests;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		67AFECFB24FD15C60069CDD3 /* chatapptbUITests */ = {
+		67AFED0D24FD1BEF0069CDD3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				67AFECFC24FD15C60069CDD3 /* chatapptbUITests.swift */,
-				67AFECFE24FD15C60069CDD3 /* Info.plist */,
+				67AFED1124FD1C660069CDD3 /* Storyboards */,
+				67AFECE324FD15C60069CDD3 /* Assets.xcassets */,
 			);
-			path = chatapptbUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		67AFED0E24FD1C000069CDD3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		67AFED0F24FD1C1B0069CDD3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67AFED1024FD1C270069CDD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67AFECDA24FD15BE0069CDD3 /* AppDelegate.swift */,
+				67AFECDC24FD15BE0069CDD3 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		67AFED1124FD1C660069CDD3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				67AFECE024FD15BE0069CDD3 /* Main.storyboard */,
+				67AFECE524FD15C60069CDD3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		67AFED2024FD27CC0069CDD3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				67AFED1424FD1DA80069CDD3 /* RegisterViewController.swift */,
+				67AFED1224FD1D900069CDD3 /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +286,7 @@
 				67AFECE724FD15C60069CDD3 /* LaunchScreen.storyboard in Resources */,
 				67AFECE424FD15C60069CDD3 /* Assets.xcassets in Resources */,
 				67AFECE224FD15BE0069CDD3 /* Main.storyboard in Resources */,
+				67AFED0B24FD1B6D0069CDD3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +311,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67AFECDF24FD15BE0069CDD3 /* ViewController.swift in Sources */,
+				67AFED1324FD1D900069CDD3 /* LoginViewController.swift in Sources */,
+				67AFED1524FD1DA80069CDD3 /* RegisterViewController.swift in Sources */,
+				67AFECDF24FD15BE0069CDD3 /* ConversationsViewController.swift in Sources */,
+				67AFED1B24FD25F20069CDD3 /* VideoPlayerViewController.swift in Sources */,
 				67AFECDB24FD15BE0069CDD3 /* AppDelegate.swift in Sources */,
 				67AFECDD24FD15BE0069CDD3 /* SceneDelegate.swift in Sources */,
+				67AFED1F24FD262D0069CDD3 /* NewConversationViewController.swift in Sources */,
+				67AFED1D24FD260F0069CDD3 /* ProfileViewController.swift in Sources */,
+				67AFED1924FD25A90069CDD3 /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +327,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67AFECF224FD15C60069CDD3 /* chatapptbTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +334,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67AFECFD24FD15C60069CDD3 /* chatapptbUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
