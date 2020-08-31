@@ -2,18 +2,25 @@
 # platform :ios, '9.0'
 
 target 'chatapptb' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for chatapptb
+# Firebase
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'Firebase/Analytics'
+pod 'Firebase/Crashlytics'
 
-  target 'chatapptbTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+# Facebook
+pod 'FBSDKLoginKit'
 
-  target 'chatapptbUITests' do
-    # Pods for testing
-  end
+# Google Sign IN
+pod 'GoogleSignIn'
 
+pod 'MessageKit'
+pod 'JGProgressHUD'
+pod 'RealmSwift'
+pod 'SDWebImage'
+  
 end
