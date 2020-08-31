@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6766DCEA24FD40AB001C6402 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766DCE924FD40AB001C6402 /* Extentions.swift */; };
 		67AFECDB24FD15BE0069CDD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFECDA24FD15BE0069CDD3 /* AppDelegate.swift */; };
 		67AFECDD24FD15BE0069CDD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFECDC24FD15BE0069CDD3 /* SceneDelegate.swift */; };
 		67AFECDF24FD15BE0069CDD3 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFECDE24FD15BE0069CDD3 /* ConversationsViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6766DCE924FD40AB001C6402 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		67AFECD724FD15BE0069CDD3 /* chatapptb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatapptb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67AFECDA24FD15BE0069CDD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67AFECDC24FD15BE0069CDD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				67AFECDA24FD15BE0069CDD3 /* AppDelegate.swift */,
 				67AFECDC24FD15BE0069CDD3 /* SceneDelegate.swift */,
+				6766DCE924FD40AB001C6402 /* Extentions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			files = (
 				67AFED1324FD1D900069CDD3 /* LoginViewController.swift in Sources */,
 				67AFED1524FD1DA80069CDD3 /* RegisterViewController.swift in Sources */,
+				6766DCEA24FD40AB001C6402 /* Extentions.swift in Sources */,
 				67AFECDF24FD15BE0069CDD3 /* ConversationsViewController.swift in Sources */,
 				67AFED1B24FD25F20069CDD3 /* VideoPlayerViewController.swift in Sources */,
 				67AFECDB24FD15BE0069CDD3 /* AppDelegate.swift in Sources */,
