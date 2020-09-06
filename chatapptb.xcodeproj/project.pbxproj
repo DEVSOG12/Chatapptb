@@ -246,7 +246,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = "Adaobi Solarin";
+				ORGANIZATIONNAME = "Oreofe Solarin";
 				TargetAttributes = {
 					67AFECD624FD15BE0069CDD3 = {
 						CreatedOnToolsVersion = 11.4.1;

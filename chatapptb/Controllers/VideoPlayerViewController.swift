@@ -2,8 +2,8 @@
 //  VideoPlayerViewController.swift
 //  chatapptb
 //
-//  Created by Adaobi Solarin on 31/08/2020.
-//  Copyright © 2020 Adaobi Solarin. All rights reserved.
+//  Created by Oreofe Solarin on 31/08/2020.
+//  Copyright © 2020 Oreofe Solarin. All rights reserved.
 //
 
 import UIKit
